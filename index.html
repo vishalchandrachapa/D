@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishal C C - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">VISHAL CHANDRA CHAPA</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project Details</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+    <img src="images/Vishal.png" alt="Home" class="home-icon" />
+  </header>
+
+  <section id="about">
+    <img src="images/images.jpeg" alt="Vishal C C" class="profile-img" />
+    <h1>About Me</h1>
+    <p>
+      Results-oriented professional with MSc in International Business and BEng in Computer Science. Experienced in full-stack
+      development, AI, data analytics, and product strategy. Skilled in cross-functional collaboration, automation, and delivering
+      scalable, data-driven solutions that enhance efficiency, innovation, and sustainable growth across diverse industries.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill"><img src="images/HTML5_logo_and_wordmark.svg.png" /><p>HTML</p></div>
+      <div class="skill"><img src="images/Official_CSS_Logo.svg.png" /><p>CSS</p></div>
+      <div class="skill"><img src="images/Python-logo-notext.svg.png" /><p>Python</p></div>
+      <div class="skill"><img src="images/Dall-e_3_(jan_'24)_artificial_intelligence_icon.png" /><p>AI</p></div>
+      <div class="skill"><img src="images/React_Logo_SVG.svg.png" /><p>React</p></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Silverstone Bank</h3>
+      <p>A comprehensive financial platform offering a wide range of services, with user-friendly interfaces for banking, trading, mortgage calculations, and more.</p>
+    </div>
+    <div class="project">
+      <h3>Delish-n-Wholesome</h3>
+      <p>Python + Google Sheets app for smart stock/sales management with real-time updates and Heroku deployment. Automates surplus tracking and stock forecasting.</p>
+    </div>
+    <div class="project">
+      <h3>Task Manager App</h3>
+      <p>Django-based task app using PostgreSQL, Bootstrap, and HTML/CSS. Helps organize personal tasks with clean UI and efficient backend.</p>
+    </div>
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="recommendation-list" id="recommendationList">
+      <p>Vishal is a versatile collaborator, excellent in both teamwork and independent execution.</p>
+      <p>His technical skills combined with strategic thinking truly set him apart.</p>
+      <p>A pleasure to work with, innovative, driven, and solution-oriented.</p>
+    </div>
+
+    <form id="recommendationForm">
+      <input type="text" id="newRecommendation" placeholder="Write a recommendation..." required />
+      <button type="submit">Add Recommendation</button>
+    </form>
+  </section>
+
+  <div id="popup" class="popup">Thank you for submitting a recommendation!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f8;
+  color: #333;
+}
+
+header {
+  background-color: #dfe3e6;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.home-icon {
+  width: 30px;
+  height: 30px;
+}
+
+section {
+  padding: 30px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.skills-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill img {
+  width: 50px;
+}
+
+.skill p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.project {
+  background: #fff;
+  padding: 15px;
+  border-left: 4px solid #999;
+  margin-bottom: 20px;
+}
+
+.recommendation-list p {
+  background: #e1e4e8;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
